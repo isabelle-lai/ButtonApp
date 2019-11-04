@@ -6,8 +6,8 @@ var width1 = 100;
 var height1 = 100;
 var x2 = 150;
 var y2 = 150;
-var width1 = 100;
-var height1 = 100;
+var width2 = 100;
+var height2 = 100;
 
 function draw(){
 	ctx.strokeRect(x1, y1, width1, height1);
