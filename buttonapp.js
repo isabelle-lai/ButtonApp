@@ -18,24 +18,28 @@ function draw(){
 		ctx.fillRect(x1, y1, width1, height1);
 		ctx.lineWidth = "1";
 		ctx.stroke();
+		$('#status1').html("Empty");
 	}
 	else{
 		ctx.beginPath();
 		ctx.rect(x1, y1, width1, height1);
 		ctx.lineWidth = "1";
 		ctx.stroke();
+		$('#status1').html("Fill");
 	}
 	if (filled2){
 		ctx.beginPath();
 		ctx.lineWidth="1";
 		ctx.fillRect(x2, y2, width2, height2);
 		ctx.stroke();
+		$('#status2').html("Empty");
 	}
 	else{
 		ctx.beginPath();
 		ctx.lineWidth="1";
 		ctx.rect(x2, y2, width2, height2);
 		ctx.stroke();
+		$('#status2').html("Fill");
 	}
 }
 
@@ -107,3 +111,4 @@ $("#status2").click(function() {
 	}
 	draw();
 });
+
