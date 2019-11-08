@@ -5,27 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Main</title>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="buttonapp.css">    
     <script type="text/javascript" src="jquery_library.js"></script>
 </head>
 <body>
+    <h1 class="title">BUTTONAPP</h1>
     <div id="border">
-        <canvas id="myCanvas" width="500" height="500"></canvas>
+        <canvas id="myCanvas" width="1500" height="600"></canvas>
     </div>
 
     <div id="higher">
-        <button id="left1"><img></button>
-        <button id="right1"><img></button>
+        Square 1&nbsp;&nbsp;
+        <button class ="widget" id="left1"><img src="left.png" width="30%"></button>
+        <button id="right1"><img src="right.svg" width="30%"></button>
         <button id="bigger1">Bigger</button>
         <button id="smaller1">Smaller</button>
-        <button id="status1"></button>
+        <button id="status1">Fill</button>   
     </div>
     <div id="lower">
-        <button id="left2"><img></button>
-        <button id="right2"><img></button>
+        Square 2&nbsp;&nbsp;
+        <button id="left2"><img src="left.png" width="30%"></button>
+        <button id="right2"><img src="right.svg" width="30%"></button>
         <button id="bigger2">Bigger</button>
         <button id="smaller2">Smaller</button>
-        <button id="status2"></button>
+        <button id="status2">Fill</button>
     </div>
 </body>
 <script type="text/javascript" src="buttonapp.js"></script>
